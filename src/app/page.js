@@ -51,6 +51,11 @@ export default function Home() {
                 <Tag text="JavaScript" icon={<img src="https://cdn.simpleicons.org/javascript/FFFFFF" className="w-3.5 h-3.5" />} />
                 <Tag text="React" icon={<img src="https://cdn.simpleicons.org/react/FFFFFF" className="w-3.5 h-3.5" />} />
                 <Tag text="Next.js" icon={<img src="https://cdn.simpleicons.org/nextdotjs/FFFFFF" className="w-3.5 h-3.5" />} />
+                <Tag text="Swift & SwiftUI" icon={<img src="https://cdn.simpleicons.org/swift/FFFFFF" className="w-3.5 h-3.5" />} />
+                <div className="bg-[#0d0d0d] text-white rounded-lg flex items-center gap-2 px-3 py-1.5 border border-white/5 transition-transform hover:scale-105">
+                  <span className="text-sm font-bold">C#</span>
+                  <span className="text-sm text-white">C-Sharp</span>
+                </div>
                 <Tag text="Tailwind CSS" icon={<img src="https://cdn.simpleicons.org/tailwindcss/FFFFFF" className="w-3.5 h-3.5" />} />
               </div>
             </Container>
