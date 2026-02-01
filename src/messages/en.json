@@ -1,0 +1,34 @@
+{
+  "Hero": {
+    "title": "Hi, I'm Dominik",
+    "description": "I am a 17-year-old programming student. I am from the Czech Republic, focusing on web application development, Swift & SwiftUI apps, game development, and vector graphics."
+  },
+  "BasicInfo": {
+    "title": "Basic Information",
+    "age": "17 years old",
+    "country": "Czech Republic",
+    "student": "Programming Student"
+  },
+  "Languages": {
+    "title": "Languages",
+    "czech": "Native Czech",
+    "english": "Advanced English",
+    "german": "Basic German",
+    "swedish": "Basic Swedish"
+  },
+  "Skills": {
+    "title": "Skills",
+    "tools": "Tools",
+    "coding": "Coding"
+  },
+  "Projects": {
+    "title": "Projects",
+    "imbusDesc": "A non-profit initiative focusing on clear information delivery and continuous education through collaborative creation and experimentation.",
+    "clovaDesc": "A development studio specializing in the Roblox platform. We deliver top-notch scripts, game assets, and complex systems combining precision with high modularity and affordability.",
+    "funweekDesc": "A project week packed with workshops, discussions, and interactive competitions aimed at fostering self-confidence, authenticity, and respect for diversity among middle school students.",
+    "underpineDesc": "An original psychological horror game. The story takes us to the freezing Scandinavian mountains, specifically to the isolated Underpine Valley."
+  },
+  "Switcher": {
+    "label": "Přejít na češtinu"
+  }
+}

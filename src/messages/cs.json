@@ -1,0 +1,34 @@
+{
+  "Hero": {
+    "title": "Ahoj, jsem Dominik",
+    "description": "Jsem 17letý student programování. Jsem z České republiky, věnuji se vývoji webových aplikací, aplikací ve Swift & SwiftUI, hernímu vývoji a vektorové grafice."
+  },
+  "BasicInfo": {
+    "title": "Základní informace",
+    "age": "17 let",
+    "country": "Česká republika",
+    "student": "Student programování"
+  },
+  "Languages": {
+    "title": "Jazyková znalost",
+    "czech": "Nativní čeština",
+    "english": "Pokročilá angličtina",
+    "german": "Zákl. němčina",
+    "swedish": "Zákl. švédština"
+  },
+  "Skills": {
+    "title": "Dovednosti",
+    "tools": "Nástroje",
+    "coding": "Kódování"
+  },
+  "Projects": {
+    "title": "Projekty",
+    "imbusDesc": "Nezisková iniciativa, která se zaměřuje na srozumitelné předávání informací a neustálé vzdělávání skrze společnou tvorbu a experimentování.",
+    "clovaDesc": "Vývojářské studio specializující se na platformu Roblox. Dodáváme špičkové skripty, herní assety a komplexní systémy, které kombinují precizní zpracování s vysokou mírou modularity a cenovou dostupností.",
+    "funweekDesc": "Projektový týden nabitý workshopy, diskusemi a interaktivními soutěžemi, jehož cílem je posilovat sebevědomí, autenticitu a respekt k diverzitě u žáků druhého stupně základních škol.",
+    "underpineDesc": "Autorská psychologicky-hororová hra. Příběh nás zavede do mrazivého skandinávského pohoří, konkrétně do izolovaného údolí Underpine Valley."
+  },
+  "Switcher": {
+    "label": "Switch to English"
+  }
+}

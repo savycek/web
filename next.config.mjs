@@ -1,21 +1,27 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin(
+    './src/i18n/request.js'
+);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "image-cdn-ak.spotifycdn.com", // Doména z tvé chyby
+                hostname: "image-cdn-ak.spotifycdn.com",
             },
             {
                 protocol: "https",
-                hostname: "i.scdn.co", // Pro jistotu přidáme i tuto (častá u starších playlistů)
+                hostname: "i.scdn.co",
             },
             {
                 protocol: "https",
-                hostname: "mosaic.scdn.co", // Někdy se používá pro koláže
+                hostname: "mosaic.scdn.co",
             },
         ],
     },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);
