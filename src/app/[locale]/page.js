@@ -70,6 +70,7 @@ export default function Home() {
                 <Tag text="Supabase" icon={<img src="https://cdn.simpleicons.org/supabase/FFFFFF" className="w-3.5 h-3.5" />} />
                 <Tag text="Discord" icon={<img src="https://cdn.simpleicons.org/discord/FFFFFF" className="w-3.5 h-3.5" />} />
                 <Tag text="Blender" icon={<img src="https://cdn.simpleicons.org/blender/FFFFFF" className="w-3.5 h-3.5" />} />
+                <Tag text="Roblox Studio" icon={<img src="https://cdn.simpleicons.org/robloxstudio/FFFFFF" className="w-3.5 h-3.5" />} />
                 <Tag text="Godot Engine" icon={<img src="https://cdn.simpleicons.org/godotengine/FFFFFF" className="w-3.5 h-3.5" />} />
               </div>
             </Container>
