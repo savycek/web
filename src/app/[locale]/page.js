@@ -19,7 +19,7 @@ export default function Home() {
   return (
       <div className="min-h-screen bg-[#0d0d0d] text-white p-4 selection:bg-white/20 relative">
 
-        {/* lang switch */}
+        {/* lang switchh */}
         <div className="absolute top-4 right-4 z-10">
           <Link
               href={targetLink}
