@@ -26,7 +26,7 @@ export default function AuthPage() {
             if (data.status === 'approved') {
                 setStatus('approved');
                 clearInterval(interval);
-                router.push('/admin/dashboard');
+                router.push('/admin/dashboard/');
                 router.refresh();
             }
         }, 2000);
