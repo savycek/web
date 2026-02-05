@@ -5,14 +5,6 @@ export async function POST(request) {
     const authHeader = request.headers.get('authorization');
     const secret = process.env.ADMIN_SECRET;
 
-    // Debugging logs
-    console.log('--- Shortcut Auth Debug ---');
-    console.log('Received Authorization Header:', authHeader);
-    console.log('Expected Secret from env:', secret);
-    console.log('Constructed Expected Header:', `Bearer ${secret}`);
-    console.log('Do headers match?', authHeader === `Bearer ${secret}`);
-    console.log('---------------------------');
-
     if (authHeader !== `Bearer ${secret}`) {
         return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
