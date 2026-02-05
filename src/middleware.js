@@ -12,6 +12,6 @@ export const config = {
     matcher: [
         '/',
         '/(cs|en)/:path*',
-        '/((?!_next|.*\\..*).*)'
+        '/((?!api|_next|.*\\..*).*)'
     ]
 };
