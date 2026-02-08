@@ -53,7 +53,6 @@ export async function GET(request) {
         if (data.status === 'approved') {
             console.log(`[LOGIN] Kód "${code}" byl SCHVÁLEN! Přihlašuji...`);
 
-            // Smazání souboru po úspěšném přihlášení
             await fs.unlink(filePath);
 
             const cookieStore = cookies();
@@ -69,11 +68,9 @@ export async function GET(request) {
         return NextResponse.json({ status: 'pending' });
 
     } catch (error) {
-        // Pokud soubor neexistuje, kód je neplatný
         if (error.code === 'ENOENT') {
             return NextResponse.json({ status: 'invalid', error: 'Code not found' });
         }
-        // Jiná chyba serveru
         console.error(`[ERROR] Chyba při čtení souboru pro kód ${code}:`, error);
         return new NextResponse('Internal Server Error', { status: 500 });
     }

@@ -30,5 +30,112 @@
   },
   "Switcher": {
     "label": "Switch to English"
+  },
+  "WebsPage": {
+    "Hero": {
+      "title": "Weby postavené na míru vašim potřebám.",
+      "description": "Zapomeňte na pomalý WordPress. Tvořím moderní weby, které jsou bleskově rychlé, bezpečné a připravené reprezentovat vaši značku."
+    },
+    "Features": {
+      "designTitle": "Prémiový Design",
+      "designDesc": "Žádné šablony. Unikátní vizuál na míru, který odpovídá vaší značce a odliší vás.",
+      "speedTitle": "Blesková Rychlost",
+      "speedDesc": "Staticky generované stránky, které se načítají okamžitě a vyhledávače milují.",
+      "securityTitle": "Maximální Bezpečí",
+      "securityDesc": "Architektura bez databáze. Váš web je prakticky nenapadnutelný hackery."
+    },
+    "Pricing": {
+      "title": "Levnější, než by jeden čekal.",
+      "subtitle": "Kvalita srovnatelná s agenturou, ale za zlomek ceny. Žádné skryté poplatky, víte přesně, za co platíte.",
+      "once": "/ jednorázově",
+      "cardVizitka": {
+        "title": "Vizitka",
+        "description": "Ideální pro start, osobní portfolio nebo jednoduchou prezentaci služby.",
+        "list": {
+          "1": "Moderní design na jedné stránce",
+          "2": "Extrémně rychlé načítání",
+          "3": "Responzivní (Mobil, Tablet, PC)",
+          "4": "Základní SEO nastavení",
+          "5": "Kontaktní formulář"
+        },
+        "button": "Poptat vizitku"
+      },
+      "cardFirma": {
+        "title": "Firemní web",
+        "description": "Kompletní prezentace pro firmy, které chtějí působit důvěryhodně a získávat zákazníky.",
+        "list": {
+          "1": "Více podstránek (Domů, Služby, Kontakt...)",
+          "2": "Pokročilé animace a interaktivita",
+          "3": "Interaktivní mapy a galerie",
+          "4": "Napojení sociálních sítí",
+          "5": "Pokročilá analytika návštěvnosti"
+        },
+        "button": "Poptat firemní web"
+      }
+    },
+    "Maintenance": {
+      "title": "Sestavením to nekončí.",
+      "subtitle": "Aby web fungoval dlouhodobě, potřebuje péči. O tu technickou se postarám já.",
+      "cardMain": {
+        "title": "Správa webu",
+        "priceInfo": "/ měsíčně (účtováno ročně)",
+        "description": "Zajistím, aby váš web běžel 24/7, byl rychlý a bezpečný. V ceně jsou i drobné úpravy obsahu, takže se nemusíte učit s žádným systémem.",
+        "list": {
+          "1": "Hosting v ceně",
+          "2": "SSL Zabezpečení (HTTPS)",
+          "3": "Pravidelné technické aktualizace",
+          "4": "Úpravy textů a fotek na vyžádání"
+        },
+        "button": "Poptat web"
+      },
+      "cardInfo": {
+        "title": "Proč platit za správu?",
+        "descriptionPart1": "S mojí správou máte jistotu, že web bude fungovat i za rok. Navíc, když změníte telefonní číslo nebo otevírací dobu,",
+        "descriptionPart2": "stačí mi napsat a já se o to do 24h postarám.",
+        "descriptionPart3": "Vy se soustřeďte na to, na čem opravdu záleží."
+      }
+    },
+    "Legal": {
+      "title": "Jak probíhá fakturace?",
+      "descriptionPart1": "Jsem student, proto spolupráce probíhá formou",
+      "descriptionPart2": "DPP (dohody o provedení práce)",
+      "descriptionPart3": ". Pro vaši firmu je to daňově uznatelný náklad a administrativně nejjednodušší cesta (jednoduchá smlouva na 1 stránku, kterou připravím)."
+    },
+    "Contact": {
+      "titlePart1": "Máte nápad?",
+      "titlePart2": "Pojďme ho postavit.",
+      "description": "Ať už máte hotové zadání, nebo jen hrubou představu, napište mi. Konzultace je zdarma a k ničemu vás nezavazuje.",
+      "form": "Formulář",
+      "response": "Odpověď do 24h",
+      "email": "Email",
+      "discord": "Discord",
+      "copied": "Zkopírováno!"
+    }
+  },
+  "ContactPage": {
+    "titlePart1": "Dejte o sobě",
+    "titlePart2": "vědět.",
+    "description": "Zaujala vás moje práce? Vyplňte formulář a já se vám ozvu. Konzultace vašeho nápadu je nezávazná a zdarma.",
+    "emailLabel": "Napište mi email",
+    "discordLabel": "Najděte mě na Discordu",
+    "copied": "Zkopírováno!",
+    "formTitle": "Pošlete mi zprávu",
+    "inputs": {
+      "name": "Jméno",
+      "email": "Email",
+      "service": "O co máte zájem?",
+      "message": "Zpráva",
+      "placeholder": "Popište stručně váš projekt nebo dotaz..."
+    },
+    "options": {
+      "web": "Webová stránka",
+      "project": "Dotaz k projektu",
+      "other": "Jiné"
+    },
+    "submit": "Odeslat zprávu",
+    "sending": "Odesílám...",
+    "successTitle": "Zpráva odeslána!",
+    "successDesc": "Díky za váš zájem. Ozvu se vám na email co nejdříve, obvykle do 24 hodin.",
+    "sendNew": "Hotovo"
   }
 }

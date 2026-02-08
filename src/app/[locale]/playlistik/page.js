@@ -1,10 +1,9 @@
 import Image from "next/image";
 import { Disc, Send, Music } from "lucide-react";
-import { submitFeedback, getPlaylistCover } from "./actions"; // Import server action
-import FeedbackForm from "./form"; // Vyčlenil jsem form do komponenty níže kvůli interaktivitě
+import { submitFeedback, getPlaylistCover } from "./actions";
+import FeedbackForm from "./form";
 
 export default async function PlaylistPage() {
-    // Načteme cover playlistu na serveru
     const coverUrl = await getPlaylistCover();
 
     return (

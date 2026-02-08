@@ -2,9 +2,12 @@ import { Geist, Geist_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
-// Upravené cesty o úroveň výš, protože jsme nyní v [locale]
 import "@/app/globals.css";
 import Footer from "@/components/Footer.jsx";
+import LanguageSwitch from "@/components/LanguageSwitch";
+import {motion} from "framer-motion";
+import Link from "next/link";
+import {ArrowRight} from "lucide-react";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -35,10 +38,11 @@ export default async function RootLayout({ children, params }) {
         <body
             className={`${geistSans.variable} ${geistMono.variable} ${jakartaSans.variable} antialiased`}
         >
-        <NextIntlClientProvider messages={messages}>
-            {children}
-            <Footer/>
-        </NextIntlClientProvider>
+            <NextIntlClientProvider messages={messages}>
+                <LanguageSwitch/>
+                {children}
+                <Footer/>
+            </NextIntlClientProvider>
         </body>
         </html>
     );

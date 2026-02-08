@@ -18,4 +18,9 @@ body {
   background-color: #0d0d0d;
   color: var(--foreground);
   font-family: var(--font-jakarta-sans);
+  cursor: url('/Icons/arrow.cur'), auto;
+}
+
+.pointer {
+  cursor: url('/Icons/hand.cur'), pointer;
 }

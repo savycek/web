@@ -11,11 +11,6 @@ import { House, Mars, GraduationCap, ArrowRight } from "lucide-react";
 
 export default function Home() {
   const t = useTranslations();
-  const pathname = usePathname();
-
-  const isCs = pathname.startsWith('/cs');
-  const targetLink = isCs ? '/en' : '/cs';
-  const flagIcon = isCs ? "/Svg/UKFlag.svg" : "/Svg/CzechFlag.svg";
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -38,23 +33,6 @@ export default function Home() {
 
   return (
       <div className="min-h-screen bg-[#0d0d0d] text-white p-4 selection:bg-white/20 relative">
-
-        {/* lang */}
-        <motion.div className="absolute top-4 right-4 z-10"
-                    initial="hidden"
-                    whileInView="visible"
-                    variants={containerVariants}
-        >
-          <Link
-              href={targetLink}
-              className="flex items-center gap-2 bg-white/5 hover:bg-white/10 px-3 py-1.5 rounded-full text-xs font-medium transition-colors border border-white/5 backdrop-blur-sm"
-          >
-            <img src={flagIcon} alt="Lang" className="w-4 h-4 rounded-sm" />
-            <span>{t('Switcher.label')}</span>
-            <ArrowRight size={12} className="opacity-50" />
-          </Link>
-        </motion.div>
-
         <div className="max-w-200 mx-auto flex flex-col gap-12 pt-10 pb-20">
           <motion.section
               id="hero"

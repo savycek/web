@@ -1,10 +1,10 @@
 {
   "Hero": {
     "title": "Hi, I'm Dominik",
-    "description": "I am a 17-year-old programming student. I am from the Czech Republic, focusing on web application development, Swift & SwiftUI apps, game development, and vector graphics."
+    "description": "I am a 17-year-old programming student. Based in the Czech Republic, I focus on web development, Swift & SwiftUI applications, game development, and vector graphics."
   },
   "BasicInfo": {
-    "title": "Basic Information",
+    "title": "Basic Info",
     "age": "17 years old",
     "country": "Czech Republic",
     "student": "Programming Student"
@@ -23,12 +23,119 @@
   },
   "Projects": {
     "title": "Projects",
-    "imbusDesc": "A non-profit initiative focusing on clear information delivery and continuous education through collaborative creation and experimentation.",
+    "imbusDesc": "A non-profit initiative focused on understandable information transfer and continuous education through collaborative creation and experimentation.",
     "clovaDesc": "A development studio specializing in the Roblox platform. We deliver top-notch scripts, game assets, and complex systems combining precision with high modularity and affordability.",
-    "funweekDesc": "A project week packed with workshops, discussions, and interactive competitions aimed at fostering self-confidence, authenticity, and respect for diversity among middle school students.",
+    "funweekDesc": "A project week packed with workshops, discussions, and interactive competitions aiming to boost self-confidence, authenticity, and respect for diversity among elementary school students.",
     "underpineDesc": "An original psychological horror game. The story takes us to the freezing Scandinavian mountains, specifically to the isolated Underpine Valley."
   },
   "Switcher": {
-    "label": "Přejít na češtinu"
+    "label": "Přepnout do češtiny"
+  },
+  "WebsPage": {
+    "Hero": {
+      "title": "Websites perfectly tailored to your needs.",
+      "description": "Forget slow WordPress. I build modern websites that are lightning-fast, secure, and ready to represent your brand."
+    },
+    "Features": {
+      "designTitle": "Premium Design",
+      "designDesc": "No templates. Unique custom visuals that match your brand and set you apart.",
+      "speedTitle": "Lightning Speed",
+      "speedDesc": "Statically generated pages that load instantly and are loved by search engines.",
+      "securityTitle": "Maximum Security",
+      "securityDesc": "Database-free architecture. Your website is practically unhackable."
+    },
+    "Pricing": {
+      "title": "Cheaper than you'd expect.",
+      "subtitle": "Agency quality at a fraction of the cost. No hidden fees, you know exactly what you're paying for.",
+      "once": "/ one-time",
+      "cardVizitka": {
+        "title": "Portfolio",
+        "description": "Ideal for startups, personal portfolios, or simple service presentations.",
+        "list": {
+          "1": "Modern one-page design",
+          "2": "Extremely fast loading",
+          "3": "Responsive (Mobile, Tablet, PC)",
+          "4": "Basic SEO setup",
+          "5": "Contact form"
+        },
+        "button": "Get a Portfolio"
+      },
+      "cardFirma": {
+        "title": "Business",
+        "description": "Complete presentation for companies wanting to build trust and gain customers.",
+        "list": {
+          "1": "Multiple pages (Home, Services, Contact...)",
+          "2": "Advanced animations and interactivity",
+          "3": "Interactive maps and galleries",
+          "4": "Social media integration",
+          "5": "Advanced traffic analytics"
+        },
+        "button": "Get a Business Web"
+      }
+    },
+    "Maintenance": {
+      "title": "It doesn't end with the build.",
+      "subtitle": "To work long-term, a website needs care. I take care of the technical side.",
+      "cardMain": {
+        "title": "Web Maintenance",
+        "priceInfo": "/ monthly (billed annually)",
+        "description": "I ensure your site runs 24/7, stays fast and secure. Minor content updates are included, so you don't need to learn any system.",
+        "list": {
+          "1": "Hosting included",
+          "2": "SSL Security (HTTPS)",
+          "3": "Regular technical updates",
+          "4": "Text & photo updates on request"
+        },
+        "button": "Send inquiry"
+      },
+      "cardInfo": {
+        "title": "Why pay for maintenance?",
+        "descriptionPart1": "With my management, you can be sure the site will work a year from now. Plus, when you change your phone number or opening hours,",
+        "descriptionPart2": "just let me know and I'll handle it within 24h.",
+        "descriptionPart3": "You focus on what really matters."
+      }
+    },
+    "Legal": {
+      "title": "How does billing work?",
+      "descriptionPart1": "I am a student, so cooperation takes place via",
+      "descriptionPart2": "DPP (Agreement on Work Performance)",
+      "descriptionPart3": ". For your company, this is a tax-deductible expense and the simplest administrative route (a simple one-page contract I will prepare)."
+    },
+    "Contact": {
+      "titlePart1": "Have an idea?",
+      "titlePart2": "Let's build it.",
+      "description": "Whether you have a finished assignment or just a rough idea, write to me. Consultation is free and non-binding.",
+      "form": "Form",
+      "response": "Response within 24h",
+      "email": "Email",
+      "discord": "Discord",
+      "copied": "Copied!"
+    }
+  },
+  "ContactPage": {
+    "titlePart1": "Let's get in",
+    "titlePart2": "touch.",
+    "description": "Interested in my work? Fill out the form and I'll get back to you. Consultation of your idea is non-binding and free.",
+    "emailLabel": "Send me an email",
+    "discordLabel": "Find me on Discord",
+    "copied": "Copied!",
+    "formTitle": "Send me a message",
+    "inputs": {
+      "name": "Name",
+      "email": "Email",
+      "service": "What are you interested in?",
+      "message": "Message",
+      "placeholder": "Briefly describe your project or inquiry..."
+    },
+    "options": {
+      "web": "Website",
+      "project": "Project Inquiry",
+      "other": "Other"
+    },
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successDesc": "Thanks for reaching out. I'll get back to your email as soon as possible, usually within 24 hours.",
+    "sendNew": "Done"
   }
 }
