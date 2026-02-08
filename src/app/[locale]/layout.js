@@ -53,7 +53,7 @@ export const metadata = {
         title: "Dominik",
         description: "Jsem 17letý student programování. Jsem z České republiky, věnuji se vývoji webových aplikací, aplikací ve Swift & SwiftUI, hernímu vývoji a vektorové grafice.",
         url: SITE_URL,
-        siteName: "Dominik Portfolio",
+        siteName: "savycek.eu",
         locale: "cs_CZ",
         type: "website",
         images: [
