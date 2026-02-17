@@ -9,20 +9,27 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@sanity/document-internationalization": "^4.1.1",
+    "@sanity/image-url": "^1.2.0",
+    "@sanity/vision": "^4.22.0",
     "@supabase/supabase-js": "^2.90.1",
     "framer-motion": "^12.31.1",
     "ical.js": "^2.2.1",
     "lucide-react": "^0.562.0",
     "next": "16.1.2",
     "next-intl": "^4.8.1",
+    "next-sanity": "^11.6.12",
     "ogl": "^1.0.11",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "sanity": "^4.22.0",
+    "styled-components": "^6.3.9"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "16.1.2",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "5.9.3"
   }
 }

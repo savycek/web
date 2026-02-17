@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e410960d-82d5-4d62-ad3c-7d49efcb4661" name="Changes" comment="fixed metadata">
+      <change afterPath="$PROJECT_DIR$/public/Icons/FramedLogoWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Icons/LogoWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/clients/HomeClient.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sanity/schemaTypes/postType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sanity/schemaTypes/projectType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sanity/schemaTypes/skillType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;savycek&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/savycek/web.git&quot;,
+    &quot;accountId&quot;: &quot;f5818736-b359-4598-b9d7-5ea4027e4b4a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="38HtSHHb94VYVGo0XUdFHZY3wGK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.localhost:3000.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.page.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "jsx.switch.disabled": "true",
+    "last_opened_file_path": "/home/savycek/WebstormProjects/web/public/Icons",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.Next.js: server-side.executor": "Run",
+    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable",
+    "ts.external.directory.path": "/home/savycek/WebstormProjects/web/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Icons" />
+      <recent name="$PROJECT_DIR$/public/Svg" />
+      <recent name="$PROJECT_DIR$/src/app/[locale]" />
+      <recent name="$PROJECT_DIR$/public/Thumbnails" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/clients" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src/app/[locale]" />
+      <recent name="$PROJECT_DIR$/src/app/playlistik" />
+      <recent name="$PROJECT_DIR$/src/app/admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:3000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:3000" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e410960d-82d5-4d62-ad3c-7d49efcb4661" name="Changes" comment="" />
+      <created>1768468321398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768468321398</updated>
+      <workItem from="1768468322404" duration="1075000" />
+      <workItem from="1768550669284" duration="23000" />
+      <workItem from="1768550727974" duration="5000" />
+      <workItem from="1768649428578" duration="5648000" />
+      <workItem from="1768655095618" duration="72000" />
+      <workItem from="1768655183172" duration="9490000" />
+      <workItem from="1768726950361" duration="7571000" />
+      <workItem from="1768743192312" duration="4379000" />
+      <workItem from="1768811558882" duration="28000" />
+      <workItem from="1768815052349" duration="171000" />
+      <workItem from="1769071604445" duration="23000" />
+      <workItem from="1769586703850" duration="6290000" />
+      <workItem from="1769891474693" duration="3050000" />
+      <workItem from="1769938464163" duration="628000" />
+      <workItem from="1769963675470" duration="8213000" />
+      <workItem from="1770122297271" duration="2256000" />
+      <workItem from="1770136285040" duration="435000" />
+      <workItem from="1770136732931" duration="8193000" />
+      <workItem from="1770185866722" duration="40000" />
+      <workItem from="1770293622253" duration="8447000" />
+      <workItem from="1770455485559" duration="1283000" />
+      <workItem from="1770470951793" duration="1591000" />
+      <workItem from="1770489808338" duration="8718000" />
+      <workItem from="1770573699078" duration="5032000" />
+      <workItem from="1770965441129" duration="16000" />
+      <workItem from="1771263385734" duration="544000" />
+      <workItem from="1771318001818" duration="14000" />
+      <workItem from="1771345655334" duration="1726000" />
+      <workItem from="1771355011322" duration="13356000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1769590999833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769590999833</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated favicon">
+      <option name="closed" value="true" />
+      <created>1769593131164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769593131164</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add playlist feedback system, admin layout, and update skills&#10;&#10;- Implement `FeedbackForm` and server actions for playlist feedback with Discord integration.&#10;- Create admin section layout with navigation.&#10;- Update homepage skills with Swift &amp; SwiftUI and C#.&#10;- Configure Next.js image patterns for Spotify domains.&#10;- Add C# icon asset.">
+      <option name="closed" value="true" />
+      <created>1769893657635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769893657635</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add playlist page with vinyl animation and feedback section&#10;&#10;- Create `PlaylistPage` component at `src/app/playlistik/page.js`.&#10;- Implement spinning vinyl record visual for playlist cover.&#10;- Integrate `FeedbackForm` component.&#10;- Fetch playlist cover using `getPlaylistCover`.">
+      <option name="closed" value="true" />
+      <created>1769893762527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769893762527</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Integrate next-intl for multi-language support&#10;&#10;- Configure `next-intl` plugin in `next.config.mjs` and add middleware for locale routing.&#10;- Move `RootLayout` to `src/app/[locale]/layout.js` and wrap app with `NextIntlClientProvider`.&#10;- Add Czech (`cs.json`) and English (`en.json`) translation files.&#10;- Update `next.config.mjs` image patterns to include Spotify domains.">
+      <option name="closed" value="true" />
+      <created>1769965524294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769965524295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Roblox Studio">
+      <option name="closed" value="true" />
+      <created>1769965921632</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769965921632</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed playlistik page">
+      <option name="closed" value="true" />
+      <created>1770137504235</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770137504235</updated>
+    </task>
+    <task id="LOCAL-00008" summary="wth?">
+      <option name="closed" value="true" />
+      <created>1770137687375</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770137687375</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Framer Motion animations and move DaaS page to locale route&#10;&#10;- Install `framer-motion` and integrate scroll animations into Homepage and `ProjectCard`.&#10;- Move DaaS page to `src/app/[locale]/daas/page.js` and apply stagger animations to sections.&#10;- Update favicon">
+      <option name="closed" value="true" />
+      <created>1770294153131</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770294153131</updated>
+    </task>
+    <task id="LOCAL-00010" summary="attempt to fix admin auth">
+      <option name="closed" value="true" />
+      <created>1770300665836</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770300665836</updated>
+    </task>
+    <task id="LOCAL-00011" summary="another attempt to fix admin auth">
+      <option name="closed" value="true" />
+      <created>1770301881005</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770301881005</updated>
+    </task>
+    <task id="LOCAL-00012" summary="...and another attempt to fix admin auth">
+      <option name="closed" value="true" />
+      <created>1770304067060</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770304067060</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create admin dashboard and update middleware config&#10;&#10;- Create initial `Dashboard` page at `src/app/[locale]/admin/dashboard/page.js`.&#10;- Update middleware `matcher` to capture all non-static routes.&#10;- Add trailing slash to admin dashboard redirect in `AuthPage`.">
+      <option name="closed" value="true" />
+      <created>1770304951466</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770304951466</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed code generation">
+      <option name="closed" value="true" />
+      <created>1770305264725</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770305264725</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixed code generation.. again">
+      <option name="closed" value="true" />
+      <created>1770305842282</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770305842282</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added webs page">
+      <option name="closed" value="true" />
+      <created>1770573735991</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1770573735991</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added metadata">
+      <option name="closed" value="true" />
+      <created>1770575415517</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770575415517</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fixed metadata">
+      <option name="closed" value="true" />
+      <created>1770575609361</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1770575609361</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <MESSAGE value="Updated favicon" />
+    <MESSAGE value="Add playlist feedback system, admin layout, and update skills&#10;&#10;- Implement `FeedbackForm` and server actions for playlist feedback with Discord integration.&#10;- Create admin section layout with navigation.&#10;- Update homepage skills with Swift &amp; SwiftUI and C#.&#10;- Configure Next.js image patterns for Spotify domains.&#10;- Add C# icon asset." />
+    <MESSAGE value="Add playlist page with vinyl animation and feedback section&#10;&#10;- Create `PlaylistPage` component at `src/app/playlistik/page.js`.&#10;- Implement spinning vinyl record visual for playlist cover.&#10;- Integrate `FeedbackForm` component.&#10;- Fetch playlist cover using `getPlaylistCover`." />
+    <MESSAGE value="Integrate next-intl for multi-language support&#10;&#10;- Configure `next-intl` plugin in `next.config.mjs` and add middleware for locale routing.&#10;- Move `RootLayout` to `src/app/[locale]/layout.js` and wrap app with `NextIntlClientProvider`.&#10;- Add Czech (`cs.json`) and English (`en.json`) translation files.&#10;- Update `next.config.mjs` image patterns to include Spotify domains." />
+    <MESSAGE value="Added Roblox Studio" />
+    <MESSAGE value="fixed playlistik page" />
+    <MESSAGE value="wth?" />
+    <MESSAGE value="Add Framer Motion animations and move DaaS page to locale route&#10;&#10;- Install `framer-motion` and integrate scroll animations into Homepage and `ProjectCard`.&#10;- Move DaaS page to `src/app/[locale]/daas/page.js` and apply stagger animations to sections.&#10;- Update favicon" />
+    <MESSAGE value="attempt to fix admin auth" />
+    <MESSAGE value="another attempt to fix admin auth" />
+    <MESSAGE value="...and another attempt to fix admin auth" />
+    <MESSAGE value="Create admin dashboard and update middleware config&#10;&#10;- Create initial `Dashboard` page at `src/app/[locale]/admin/dashboard/page.js`.&#10;- Update middleware `matcher` to capture all non-static routes.&#10;- Add trailing slash to admin dashboard redirect in `AuthPage`." />
+    <MESSAGE value="fixed code generation" />
+    <MESSAGE value="fixed code generation.. again" />
+    <MESSAGE value="added webs page" />
+    <MESSAGE value="added metadata" />
+    <MESSAGE value="fixed metadata" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed metadata" />
+  </component>
+</project>

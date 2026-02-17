@@ -10,7 +10,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "image-cdn-ak.spotifycdn.com",
+                hostname: "image-cdn-fa.spotifycdn.com",
             },
             {
                 protocol: "https",
@@ -23,6 +23,14 @@ const nextConfig = {
             {
                 protocol: "https",
                 hostname: "cdn.simpleicons.org",
+            },
+            {
+                protocol: "https",
+                hostname: "i.imgur.com"
+            },
+            {
+                protocol: 'https',
+                hostname: 'cdn.sanity.io',
             },
         ],
     },
