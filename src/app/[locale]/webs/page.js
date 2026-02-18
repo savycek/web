@@ -122,6 +122,43 @@ export default function Webs() {
                     color="blue"
                 />
             </section>
+
+            <section className="w-full px-3 md:px-0 max-w-200 mx-auto mt-25 mb-30">
+                <div className="text-center px-4"
+                >
+                    <motion.div className="max-w-3xl mx-auto mb-16"
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: true, amount: 0.2 }}
+                                variants={itemVariants}
+                    >
+                        <h2 className="font-bold text-5xl md:text-6xl mb-6">
+                            {t("WebsPage.Admin.title")} <span className="text-emerald-500">{t("WebsPage.Admin.titleHighlight")}</span>.
+                        </h2>
+                        <p className="text-[#8E8E93] text-xl leading-relaxed">
+                            {t("WebsPage.Admin.description")}
+                        </p>
+                    </motion.div>
+
+                    <motion.div className="relative group max-w-6xl mx-auto"
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: true, amount: 0.2 }}
+                                variants={itemVariants}
+                    >
+                        <Image
+                            src="/Images/AdminShowcase.png"
+                            alt="Ukázka intuitivní administrace"
+                            width={1900}
+                            height={1000}
+                            className="w-full h-auto object-cover transform transition duration-500 group-hover:scale-[1.01]"
+                            priority
+                        />
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-emerald-500/60 blur-[120px] rounded-full -z-10 opacity-60 pointer-events-none"/>
+                    </motion.div>
+                </div>
+            </section>
+
             <section className="w-full px-3 md:px-0 max-w-200 mx-auto mt-20">
                 <motion.div className="text-center mb-12"
                             initial="hidden"
@@ -162,20 +199,22 @@ export default function Webs() {
                             <FeatureItem text={t("WebsPage.Pricing.cardVizitka.list.4")} />
                             <FeatureItem text={t("WebsPage.Pricing.cardVizitka.list.5")} />
                         </ul>
-                        <Link
-                            href="/contact"
+                        <a
+                            href="#contact"
                             className="w-full py-3 rounded-xl border border-white/10 bg-white/5 text-white font-medium text-center hover:bg-white/10 transition-colors"
                         >
                             {t("WebsPage.Pricing.cardVizitka.button")}
-                        </Link>
+                        </a>
                     </Container>
                     <Container className="p-5 flex">
                         <div className="">
                             <h3 className="text-xl font-medium text-gray-400">{t("WebsPage.Pricing.cardFirma.title")}</h3>
                             <div className="mt-2 flex items-baseline gap-1">
-                                <span className="text-4xl font-bold text-white">9 900 Kč</span>
-                                <span className="text-sm text-gray-500">{t("WebsPage.Pricing.once")}</span>
+                                <span className="text-4xl font-bold text-white">
+                                    {t("WebsPage.Pricing.cardFirma.price")}
+                                </span>
                             </div>
+
                             <p className="mt-4 text-sm text-gray-400 leading-relaxed">
                                 {t("WebsPage.Pricing.cardFirma.description")}
                             </p>
@@ -184,16 +223,17 @@ export default function Webs() {
                         <ul className="flex flex-col gap-4 mb-4 flex-1">
                             <FeatureItem text={t("WebsPage.Pricing.cardFirma.list.1")} highlighted />
                             <FeatureItem text={t("WebsPage.Pricing.cardFirma.list.2")} highlighted />
-                            <FeatureItem text={t("WebsPage.Pricing.cardFirma.list.3")} />
+                            <FeatureItem text={t("WebsPage.Pricing.cardFirma.list.3")} highlighted />
                             <FeatureItem text={t("WebsPage.Pricing.cardFirma.list.4")} />
                             <FeatureItem text={t("WebsPage.Pricing.cardFirma.list.5")} />
+                            <FeatureItem text={t("WebsPage.Pricing.cardFirma.list.6")} />
                         </ul>
-                        <Link
-                            href="/contact"
+                        <a
+                            href="#contact"
                             className="w-full py-3 rounded-xl bg-blue-600 text-white font-medium text-center hover:bg-blue-500 transition-colors shadow-lg shadow-blue-900/20 flex items-center justify-center gap-2 group"
                         >
                             {t("WebsPage.Pricing.cardFirma.button")}
-                        </Link>
+                        </a>
                     </Container>
                 </motion.div>
             </section>
@@ -221,7 +261,7 @@ export default function Webs() {
                         <div className="">
                             <h3 className="text-xl font-medium text-gray-400">{t("WebsPage.Maintenance.cardMain.title")}</h3>
                             <div className="mt-4 flex items-baseline gap-1">
-                                <span className="text-4xl font-bold text-white">500 Kč</span>
+                                <span className="text-4xl font-bold text-white">390 Kč</span>
                                 <span className="text-sm text-gray-500">{t("WebsPage.Maintenance.cardMain.priceInfo")}</span>
                             </div>
                             <p className="mt-4 text-sm text-gray-400 leading-relaxed">
@@ -235,12 +275,12 @@ export default function Webs() {
                             <FeatureItem text={t("WebsPage.Maintenance.cardMain.list.3")} />
                             <FeatureItem text={t("WebsPage.Maintenance.cardMain.list.4")} />
                         </ul>
-                        <Link
-                            href="/contact"
+                        <a
+                            href="#contact"
                             className="w-full py-3 rounded-xl bg-blue-600 text-white font-medium text-center hover:bg-blue-500 transition-colors shadow-lg shadow-blue-900/20 flex items-center justify-center gap-2 group"
                         >
                             {t("WebsPage.Maintenance.cardMain.button")}
-                        </Link>
+                        </a>
                     </Container>
                     <div className="relative w-full h-full rounded-2xl border border-white/10 overflow-hidden min-h-[300px]">
                         <div className="absolute inset-0 z-0">
@@ -301,6 +341,7 @@ export default function Webs() {
                     </div>
                 </motion.div>
             </section>
+            <div id="contact" className="scroll-mt-20" />
             <section className="max-w-200 px-3 md:px-0 mx-auto mt-32 mb-20">
                 <motion.div className="text-center mb-12"
                             initial="hidden"
@@ -323,25 +364,13 @@ export default function Webs() {
                         {t("WebsPage.Contact.description")}
                     </motion.p>
                 </motion.div>
-                <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-4"
+                <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-4"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true, amount: 0.2 }}
                             variants={itemVariants}
                 >
-                    <Link
-                        href="/contact"
-                        className="group p-2 bg-[#1a1a1a] rounded-2xl border border-white/10 hover:border-white/25 hover:bg-[#202020] transition-all flex gap-3 items-center"
-                    >
-                        <div className="bg-[#0d0d0d] border border-white/10 p-3 rounded-xl group-hover:border-white/20 transition-colors">
-                            <Send size={24} className="text-white transition-colors"/>
-                        </div>
-                        <div className="flex flex-col">
-                            <span className="font-bold text-white text-lg leading-tight">{t("WebsPage.Contact.form")}</span>
-                            <span className="text-[#8E8E93] text-sm leading-tight group-hover:text-white/80 transition-colors">{t("WebsPage.Contact.response")}</span>
-                        </div>
-                    </Link>
-                    <Link
+                    <a
                         href="mailto:me@savycek.eu"
                         className="group p-2 bg-[#1a1a1a] rounded-2xl border border-white/10 hover:border-white/25 hover:bg-[#202020] transition-all flex gap-3 items-center"
                     >
@@ -352,7 +381,7 @@ export default function Webs() {
                             <span className="font-bold text-white text-lg leading-tight">{t("WebsPage.Contact.email")}</span>
                             <span className="text-[#8E8E93] text-sm leading-tight group-hover:text-white/80 transition-colors">me@savycek.eu</span>
                         </div>
-                    </Link>
+                    </a>
                     <button
                         onClick={handleCopyDiscord}
                         className="group w-full text-left p-2 bg-[#1a1a1a] rounded-2xl border border-white/10 hover:border-white/25 hover:bg-[#202020] transition-all flex gap-3 items-center cursor-pointer"

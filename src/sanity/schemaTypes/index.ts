@@ -4,5 +4,5 @@ import {skillType} from './skillType'
 import {projectType} from './projectType'
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [projectType, skillType, postType],
+  types: [postType, projectType, skillType],
 }

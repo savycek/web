@@ -21,6 +21,10 @@ body {
   cursor: url('/Icons/arrow.cur'), auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .pointer {
   cursor: url('/Icons/hand.cur'), pointer;
 }

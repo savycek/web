@@ -118,7 +118,7 @@ export default defineConfig({
       schemaTypes: ['project'],
     }),
 
-    isDev && visionTool({
+    visionTool({
       defaultApiVersion: apiVersion,
       title: 'Terminál',
     }),

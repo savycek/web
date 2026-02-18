@@ -34,7 +34,7 @@ export default function LanguageSwitch() {
     };
 
     return (
-        <motion.div className="absolute top-4 right-4 z-10"
+        <motion.div className="absolute top-4 right-4 z-100"
                     initial="hidden"
                     whileInView="visible"
                     variants={containerVariants}

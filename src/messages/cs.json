@@ -44,9 +44,14 @@
       "securityTitle": "Maximální Bezpečí",
       "securityDesc": "Architektura bez databáze. Váš web je prakticky nenapadnutelný hackery."
     },
+    "Admin": {
+      "title": "Administrace, kterou si",
+      "titleHighlight": "zamilujete",
+      "description": "Zapomeňte na složité systémy a návody. Dostanete k dispozici studio připravené na míru, kde zvládnete úpravy webu během pár vteřin. Vše v češtině."
+    },
     "Pricing": {
       "title": "Levnější, než by jeden čekal.",
-      "subtitle": "Kvalita srovnatelná s agenturou, ale za zlomek ceny. Žádné skryté poplatky, víte přesně, za co platíte.",
+      "subtitle": "Kvalita srovnatelná s agenturou, ale za zlomek ceny. Žádné skryté poplatky, víte přesně, za co platíte. Ceny jsou orientační a mohou se lišit.",
       "once": "/ jednorázově",
       "cardVizitka": {
         "title": "Vizitka",
@@ -63,36 +68,38 @@
       "cardFirma": {
         "title": "Firemní web",
         "description": "Kompletní prezentace pro firmy, které chtějí působit důvěryhodně a získávat zákazníky.",
+        "price": "Dohodou",
         "list": {
           "1": "Více podstránek (Domů, Služby, Kontakt...)",
           "2": "Pokročilé animace a interaktivita",
-          "3": "Interaktivní mapy a galerie",
-          "4": "Napojení sociálních sítí",
-          "5": "Pokročilá analytika návštěvnosti"
+          "3": "Administrace vytvořená na míru",
+          "4": "Interaktivní mapy a galerie",
+          "5": "Napojení sociálních sítí",
+          "6": "Pokročilá analytika návštěvnosti"
         },
         "button": "Poptat firemní web"
       }
     },
     "Maintenance": {
-      "title": "Sestavením to nekončí.",
-      "subtitle": "Aby web fungoval dlouhodobě, potřebuje péči. O tu technickou se postarám já.",
+      "title": "Web bez starostí.",
+      "subtitle": "Se správou garantuji, že web po technické stránce poběží jako hodinky, a vy se můžete starat o to, na čemž skutečně záleží.",
       "cardMain": {
         "title": "Správa webu",
         "priceInfo": "/ měsíčně (účtováno ročně)",
-        "description": "Zajistím, aby váš web běžel 24/7, byl rychlý a bezpečný. V ceně jsou i drobné úpravy obsahu, takže se nemusíte učit s žádným systémem.",
+        "description": "Web není jednorázový leták, je to software. Zajistím hosting, ochranu a plnou kompatibilitu. Vy neřešíte nic.",
         "list": {
-          "1": "Hosting v ceně",
-          "2": "SSL Zabezpečení (HTTPS)",
-          "3": "Pravidelné technické aktualizace",
-          "4": "Úpravy textů a fotek na vyžádání"
+          "1": "Prémiový hosting v ceně",
+          "2": "SSL certifikát a zabezpečení",
+          "3": "Pravidelné aktualizace",
+          "4": "Drobné úpravy kódu a designu v ceně"
         },
-        "button": "Poptat web"
+        "button": "Chci web bez starostí"
       },
       "cardInfo": {
         "title": "Proč platit za správu?",
-        "descriptionPart1": "S mojí správou máte jistotu, že web bude fungovat i za rok. Navíc, když změníte telefonní číslo nebo otevírací dobu,",
-        "descriptionPart2": "stačí mi napsat a já se o to do 24h postarám.",
-        "descriptionPart3": "Vy se soustřeďte na to, na čem opravdu záleží."
+        "descriptionPart1": "Technologie se neustále mění. Správa kryje náklady na server a mou práci na pozadí, díky které",
+        "descriptionPart2": "web nezastará a nespadne.",
+        "descriptionPart3": "V ceně jsou i menší zásahy do kódu a úpravy webu."
       }
     },
     "Legal": {

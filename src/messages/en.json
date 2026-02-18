@@ -44,9 +44,14 @@
       "securityTitle": "Maximum Security",
       "securityDesc": "Database-free architecture. Your website is practically unhackable."
     },
+    "Admin": {
+      "title": "Administration you will",
+      "titleHighlight": "actually enjoy",
+      "description": "Forget complex systems and manuals. You get a custom-tailored studio where you can make edits in seconds. Fully localized and intuitive."
+    },
     "Pricing": {
       "title": "Cheaper than you'd expect.",
-      "subtitle": "Agency quality at a fraction of the cost. No hidden fees, you know exactly what you're paying for.",
+      "subtitle": "Agency quality at a fraction of the cost. No hidden fees, you know exactly what you're paying for. Prices are estimated and might change.",
       "once": "/ one-time",
       "cardVizitka": {
         "title": "Portfolio",
@@ -63,42 +68,44 @@
       "cardFirma": {
         "title": "Business",
         "description": "Complete presentation for companies wanting to build trust and gain customers.",
+        "price": "Negotiable",
         "list": {
           "1": "Multiple pages (Home, Services, Contact...)",
           "2": "Advanced animations and interactivity",
-          "3": "Interactive maps and galleries",
-          "4": "Social media integration",
-          "5": "Advanced traffic analytics"
+          "3": "Custom-build administration",
+          "4": "Interactive maps and galleries",
+          "5": "Social media integration",
+          "6": "Advanced traffic analytics"
         },
         "button": "Get a Business Web"
       }
     },
     "Maintenance": {
-      "title": "It doesn't end with the build.",
-      "subtitle": "To work long-term, a website needs care. I take care of the technical side.",
+      "title": "Worry-Free Website.",
+      "subtitle": "With my maintenance plan, I guarantee your site runs like clockwork technically, so you can focus on what truly matters.",
       "cardMain": {
         "title": "Web Maintenance",
-        "priceInfo": "/ monthly (billed annually)",
-        "description": "I ensure your site runs 24/7, stays fast and secure. Minor content updates are included, so you don't need to learn any system.",
+        "priceInfo": "/ month (billed annually)",
+        "description": "A website isn't a printed flyer; it's software. I handle the hosting, security, and full compatibility. You don't have to worry about a thing.",
         "list": {
-          "1": "Hosting included",
-          "2": "SSL Security (HTTPS)",
-          "3": "Regular technical updates",
-          "4": "Text & photo updates on request"
+          "1": "Premium hosting included",
+          "2": "SSL Certificate & Security",
+          "3": "Regular updates",
+          "4": "Minor code & design tweaks included"
         },
-        "button": "Send inquiry"
+        "button": "I want a worry-free site"
       },
       "cardInfo": {
         "title": "Why pay for maintenance?",
-        "descriptionPart1": "With my management, you can be sure the site will work a year from now. Plus, when you change your phone number or opening hours,",
-        "descriptionPart2": "just let me know and I'll handle it within 24h.",
-        "descriptionPart3": "You focus on what really matters."
+        "descriptionPart1": "Technology changes constantly. Maintenance covers server costs and my background work, ensuring",
+        "descriptionPart2": "your site never becomes obsolete or goes down.",
+        "descriptionPart3": "The price also includes minor code edits and website adjustments."
       }
     },
     "Legal": {
       "title": "How does billing work?",
       "descriptionPart1": "I am a student, so cooperation takes place via",
-      "descriptionPart2": "DPP (Agreement on Work Performance)",
+      "descriptionPart2": "DPP (Casual Work Contract)",
       "descriptionPart3": ". For your company, this is a tax-deductible expense and the simplest administrative route (a simple one-page contract I will prepare)."
     },
     "Contact": {
