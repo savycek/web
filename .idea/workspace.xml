@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e410960d-82d5-4d62-ad3c-7d49efcb4661" name="Changes" comment="fixed metadata">
-      <change afterPath="$PROJECT_DIR$/public/Images/AdminShowcase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/studio/layout.tsx" afterDir="false" />
+    <list default="true" id="e410960d-82d5-4d62-ad3c-7d49efcb4661" name="Changes" comment="- updated studio&#10;- edited webs page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity.config.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.config.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/webs/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/webs/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LanguageSwitch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LanguageSwitch.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/messages/cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/cs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sanity/schemaTypes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sanity/schemaTypes/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +156,7 @@
       <workItem from="1771345655334" duration="1726000" />
       <workItem from="1771355011322" duration="13356000" />
       <workItem from="1771394940004" duration="2888000" />
-      <workItem from="1771399643338" duration="5606000" />
+      <workItem from="1771399643338" duration="6988000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -311,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770575609361</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="- updated studio&#10;- edited webs page">
+      <option name="closed" value="true" />
+      <created>1771405970825</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771405970825</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +346,7 @@
     <MESSAGE value="added webs page" />
     <MESSAGE value="added metadata" />
     <MESSAGE value="fixed metadata" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed metadata" />
+    <MESSAGE value="- updated studio&#10;- edited webs page" />
+    <option name="LAST_COMMIT_MESSAGE" value="- updated studio&#10;- edited webs page" />
   </component>
 </project>
