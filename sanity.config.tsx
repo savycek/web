@@ -9,6 +9,7 @@ import {buildLegacyTheme, defineConfig} from 'sanity'
 import { NavbarProps } from 'sanity'
 import { Box, Card, Flex, Text, Stack } from '@sanity/ui' // Sanity UI komponenty
 import {structureTool} from 'sanity/structure'
+import { FinanceTool } from '@/sanity/components/financeTool'
 // Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
 import {apiVersion, dataset, projectId} from '@/sanity/env'
 import {schema} from '@/sanity/schemaTypes'
@@ -94,7 +95,6 @@ export default defineConfig({
   theme: myTheme,
   tasks: { enabled: false },
   icon: CustomLogo,
-
   studio: {
     components: {
       logo: CustomLogo,
@@ -104,6 +104,17 @@ export default defineConfig({
 
   // Add and edit the content schema in the './sanity/schemaTypes' folder
   schema,
+  tools: (prev, context) => {
+    return [
+      ...prev,
+      {
+        name: 'finance',
+        title: 'Finance',
+        component: FinanceTool
+      }
+    ]
+  },
+
   plugins: [
     structureTool({
       title: 'Správa obsahu',

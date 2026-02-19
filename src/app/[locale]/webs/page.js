@@ -184,7 +184,7 @@ export default function Webs() {
                         <div className="">
                             <h3 className="text-xl font-medium text-gray-400">{t("WebsPage.Pricing.cardVizitka.title")}</h3>
                             <div className="mt-2 flex items-baseline gap-1">
-                                <span className="text-4xl font-bold text-white">4 900 Kč</span>
+                                <span className="text-4xl font-bold text-white">3 900 Kč</span>
                                 <span className="text-sm text-gray-500">{t("WebsPage.Pricing.once")}</span>
                             </div>
                             <p className="mt-4 text-sm text-gray-400 leading-relaxed">

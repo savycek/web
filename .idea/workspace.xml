@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e410960d-82d5-4d62-ad3c-7d49efcb4661" name="Changes" comment="- updated studio&#10;- edited webs page">
+    <list default="true" id="e410960d-82d5-4d62-ad3c-7d49efcb4661" name="Changes" comment="added dark logo variation">
+      <change afterPath="$PROJECT_DIR$/src/sanity/components/financeTool.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sanity/schemaTypes/invoiceType.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/messages/cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/cs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity.config.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.config.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sanity/schemaTypes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sanity/schemaTypes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sanity/structure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sanity/structure.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +20,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,7 +65,8 @@
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;jsx.switch.disabled&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/savycek/WebstormProjects/web/public/Images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/savycek/WebstormProjects/web/public/Icons&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,8 +80,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/Images" />
       <recent name="$PROJECT_DIR$/public/Icons" />
+      <recent name="$PROJECT_DIR$/public/Images" />
       <recent name="$PROJECT_DIR$/public/Svg" />
       <recent name="$PROJECT_DIR$/src/app/[locale]" />
       <recent name="$PROJECT_DIR$/public/Thumbnails" />
@@ -157,6 +162,10 @@
       <workItem from="1771355011322" duration="13356000" />
       <workItem from="1771394940004" duration="2888000" />
       <workItem from="1771399643338" duration="6988000" />
+      <workItem from="1771417668258" duration="968000" />
+      <workItem from="1771437690883" duration="5812000" />
+      <workItem from="1771487357981" duration="3287000" />
+      <workItem from="1771514832203" duration="1023000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -310,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771405970825</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added dark logo variation">
+      <option name="closed" value="true" />
+      <created>1771417772999</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1771417772999</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +364,7 @@
     <MESSAGE value="added metadata" />
     <MESSAGE value="fixed metadata" />
     <MESSAGE value="- updated studio&#10;- edited webs page" />
-    <option name="LAST_COMMIT_MESSAGE" value="- updated studio&#10;- edited webs page" />
+    <MESSAGE value="added dark logo variation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dark logo variation" />
   </component>
 </project>
