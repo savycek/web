@@ -126,7 +126,7 @@ export default defineConfig({
         { id: 'cs', title: 'Čeština' },
         { id: 'en', title: 'English' }
       ],
-      schemaTypes: ['project'],
+      schemaTypes: ['project', 'post'],
     }),
 
     visionTool({
